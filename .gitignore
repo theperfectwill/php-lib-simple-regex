@@ -1,0 +1,42 @@
+# Git
+.github/
+
+# Dependencies
+/vendor/
+/composer.lock
+
+# Environment files
+.env
+.phpunit.result.cache
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Local development
+.phpunit.cache
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Testing
+/coverage/
+/clover.xml
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
